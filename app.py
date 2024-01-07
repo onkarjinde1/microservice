@@ -1,6 +1,12 @@
 from flask import Flask, request, render_template
 import math
 app = Flask(__name__)
+
+from flask_cors import CORS
+
+app = Flask(__name__)
+CORS(app)
+
  
     
 
