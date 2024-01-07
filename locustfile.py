@@ -11,11 +11,3 @@ class MyLocust(HttpUser):
 
         # Hit the numerical integration endpoint
         response = self.client.get(f'/numericalintegralservice/{lower}/{upper}')
-
-    @task(2)  # Adjust the weights as needed
-    def details_task(self):
-        lower = 0
-        upper = 3.14159
-
-        # Hit the details endpoint
-        response = self.client.get(f'/numericalintegralservice/{lower}/{upper}/details')
