@@ -1,8 +1,7 @@
 from flask import Flask, request, render_template
 import math
-import socket
 app = Flask(__name__)
-
+ 
     
 
 def numerical_integration(lower, upper, N):
@@ -24,8 +23,7 @@ def integrate(lower, upper):
     for N in [1, 10, 100, 1000, 10000, 100000, 1000000]:
         integration_results[N] = numerical_integration(lower, upper, N)
 
-    return integration_result
-
+    return integration_results
 
 
 if __name__ == '__main__':
