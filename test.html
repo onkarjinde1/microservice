@@ -120,7 +120,7 @@ table.stats tr.total td {
 
         <div class="info">
             
-            <p>During: <span class="l10n datetime">2024-01-07 20:21:52</span> - <span class="l10n datetime">2024-01-07 20:24:50</span></p>
+            <p>During: <span class="l10n datetime">2024-01-07 20:49:20</span> - <span class="l10n datetime">2024-01-07 20:49:28</span></p>
             <p>Target Host: <span>http://127.0.0.1:5000/numericalintegralservice/0/3.14</span></p>
             <p>Script: <span>locustfile.py</span></p>
         </div>
@@ -147,40 +147,27 @@ table.stats tr.total td {
                         <tr>
                             <td>GET</td>
                             <td>/numericalintegralservice/0/3.14/numericalintegralservice/0/3.14159</td>
-                            <td>28</td>
-                            <td>28</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>3</td>
-                            <td>0</td>
-                            <td>0.2</td>
-                            <td>0.2</td>
-                        </tr>
-                    
-                        <tr>
-                            <td>GET</td>
-                            <td>/numericalintegralservice/0/3.14/numericalintegralservice/0/3.14159/details</td>
-                            <td>59</td>
-                            <td>59</td>
-                            <td>1</td>
-                            <td>1</td>
                             <td>5</td>
-                            <td>0</td>
-                            <td>0.3</td>
-                            <td>0.3</td>
+                            <td>5</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>13</td>
+                            <td>207</td>
+                            <td>0.6</td>
+                            <td>0.6</td>
                         </tr>
                     
                         <tr class="total">
                             <td></td>
                             <td>Aggregated</td>
-                            <td>87</td>
-                            <td>87</td>
-                            <td>1</td>
-                            <td>1</td>
                             <td>5</td>
-                            <td>0</td>
-                            <td>0.5</td>
-                            <td>0.5</td>
+                            <td>5</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>13</td>
+                            <td>207</td>
+                            <td>0.6</td>
+                            <td>0.6</td>
                         </tr>
                     
                 </tbody>
@@ -209,40 +196,27 @@ table.stats tr.total td {
                         <tr>
                             <td>GET</td>
                             <td>/numericalintegralservice/0/3.14/numericalintegralservice/0/3.14159</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>3</td>
-                            <td>3</td>
-                        </tr>
-                    
-                        <tr>
-                            <td>GET</td>
-                            <td>/numericalintegralservice/0/3.14/numericalintegralservice/0/3.14159/details</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>6</td>
-                            <td>6</td>
+                            <td>4</td>
+                            <td>4</td>
+                            <td>4</td>
+                            <td>13</td>
+                            <td>13</td>
+                            <td>13</td>
+                            <td>13</td>
+                            <td>13</td>
                         </tr>
                     
                         <tr class="total">
                             <td></td>
                             <td>Aggregated</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>6</td>
-                            <td>6</td>
+                            <td>4</td>
+                            <td>4</td>
+                            <td>4</td>
+                            <td>13</td>
+                            <td>13</td>
+                            <td>13</td>
+                            <td>13</td>
+                            <td>13</td>
                         </tr>
                     
                 </tbody>
@@ -265,16 +239,9 @@ table.stats tr.total td {
                         
                             <tr>
                                 <td>GET</td>
-                                <td>/numericalintegralservice/0/3.14/numericalintegralservice/0/3.14159/details</td>
-                                <td>[Errno 111] Connection refused</td>
-                                <td>59</td>
-                            </tr>
-                        
-                            <tr>
-                                <td>GET</td>
                                 <td>/numericalintegralservice/0/3.14/numericalintegralservice/0/3.14159</td>
-                                <td>[Errno 111] Connection refused</td>
-                                <td>28</td>
+                                <td>404 Client Error: NOT FOUND for url: /numericalintegralservice/0/3.14/numericalintegralservice/0/3.14159</td>
+                                <td>5</td>
                             </tr>
                         
                     </tbody>
@@ -292,7 +259,7 @@ table.stats tr.total td {
 
         <div id="tasks">
             <h2>Final ratio</h2>
-            <div class="tasks" data-tasks="{&quot;per_class&quot;: {&quot;MyLocust&quot;: {&quot;ratio&quot;: 1.0, &quot;tasks&quot;: {&quot;numerical_integration_task&quot;: {&quot;ratio&quot;: 0.3333333333333333}, &quot;details_task&quot;: {&quot;ratio&quot;: 0.6666666666666666}}}}, &quot;total&quot;: {&quot;MyLocust&quot;: {&quot;ratio&quot;: 1.0, &quot;tasks&quot;: {&quot;numerical_integration_task&quot;: {&quot;ratio&quot;: 0.3333333333333333}, &quot;details_task&quot;: {&quot;ratio&quot;: 0.6666666666666666}}}}}"></div>
+            <div class="tasks" data-tasks="{&quot;per_class&quot;: {&quot;MyLocust&quot;: {&quot;ratio&quot;: 1.0, &quot;tasks&quot;: {&quot;numerical_integration_task&quot;: {&quot;ratio&quot;: 1.0}}}}, &quot;total&quot;: {&quot;MyLocust&quot;: {&quot;ratio&quot;: 1.0, &quot;tasks&quot;: {&quot;numerical_integration_task&quot;: {&quot;ratio&quot;: 1.0}}}}}"></div>
         </div>
 
     </div>
@@ -574,12 +541,12 @@ function fillTasksFromRequest() {
     <script>
         
 var stats_history = {
-    "time": ["20:21:57", "20:22:02", "20:22:07", "20:22:12", "20:22:17", "20:22:22", "20:22:27", "20:22:32", "20:22:37", "20:22:42", "20:22:47", "20:22:52", "20:22:57", "20:23:02", "20:23:07", "20:23:12", "20:23:17", "20:23:22", "20:23:27", "20:23:32", "20:23:37", "20:23:42", "20:23:47", "20:23:52", "20:23:57", "20:24:02", "20:24:07", "20:24:12", "20:24:17", "20:24:22", "20:24:27", "20:24:32", "20:24:37", "20:24:42", "20:24:47"].map(server_time => new Date(new Date().setUTCHours(...(server_time.split(":")))).toLocaleTimeString()),
-    "user_count": [{"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}, {"value": 1}],
-    "current_rps": [{"users": 1, "value": 1.0}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.6}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.6}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.6}, {"users": 1, "value": 0.6}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.4}],
-    "current_fail_per_sec": [{"users": 1, "value": 1.0}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.6}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.6}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.6}, {"users": 1, "value": 0.6}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.4}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.5}, {"users": 1, "value": 0.4}],
-    "response_time_percentile_1": [{"users": 1, "value": 3}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}],
-    "response_time_percentile_2": [{"users": 1, "value": 3}, {"users": 1, "value": 3}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}, {"users": 1, "value": 2}],
+    "time": ["20:49:25"].map(server_time => new Date(new Date().setUTCHours(...(server_time.split(":")))).toLocaleTimeString()),
+    "user_count": [{"value": 1}],
+    "current_rps": [{"users": 1, "value": 1.0}],
+    "current_fail_per_sec": [{"users": 1, "value": 1.0}],
+    "response_time_percentile_1": [{"users": 1, "value": 4}],
+    "response_time_percentile_2": [{"users": 1, "value": 4}],
     "markers": [],
 };
         var percentile1 = 0.5
